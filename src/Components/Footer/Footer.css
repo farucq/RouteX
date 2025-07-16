@@ -1,0 +1,92 @@
+.footer{
+    background-color: white;
+    display: flex;
+    margin-bottom: 60px;
+}
+.routeX{  
+    margin-top: 80px;   
+}
+.routexMain{
+    display: flex;
+    
+}
+.routeX .overview{
+    color: black;
+    margin-top: 10px;
+}
+.routeX .logo{
+    margin-top: -10px;
+}
+.routeX .title{
+    color: black;
+    letter-spacing: -1px;
+}
+.routeX img{
+    width: 40px;
+    margin-right: 2px;
+}
+.serviceMenu{  
+    margin-top: 80px;  
+}
+.serviceMenu .title{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+.serviceMenu .subTitle p{
+   line-height: 29px;
+   margin-top: 15px;
+}
+.usefulLink{  
+    margin-top: 80px;    
+}
+.usefulLink .title{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+.usefulLink .subTitle p{
+   line-height: 29px;
+   margin-top: 15px;
+}
+.gallery{
+    margin-top: 80px;   
+}
+.gallery .title{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+.gallery .imageRow1{
+    display: flex;
+    margin-top: 21px;
+    gap: 10px;
+    
+}
+.gallery .imageRow1 img{
+    width: 80px;
+    height: 70px;
+    border-radius: 10px;
+}
+.gallery .imageRow2{
+    display: flex;
+    margin-top: 11px;
+    gap: 10px;
+}
+.gallery .imageRow2 img{
+    width: 80px;
+    height: 70px;
+    border-radius: 10px;
+}
+.footerMain .Line{
+    width: 100%;
+    height: 1px;
+    background-color: #00000042;
+}
+.routeX .icons{
+    display: flex;
+    gap: 23px;
+}

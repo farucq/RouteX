@@ -1,0 +1,18 @@
+.text-brown {
+  color: brown;
+}
+
+.navbar .nav-link {
+  color: brown;
+  font-weight: 500;
+  transition: transform 0.2s ease;
+}
+
+.navbar .nav-link:hover {
+  color: black;
+  transform: scale(1.05);
+}
+
+.text-muted {
+  color: #7e7e7e !important;
+}
