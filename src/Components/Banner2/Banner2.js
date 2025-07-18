@@ -5,16 +5,16 @@ import posterImage from '../../assets/poster.png'
 function Banner2() {
   return (
     <div id="about" className="about-us-section ">
-      <div className="container mt-4 mb-5">
+      <div className="container mt-5 mb-5">
         <div className="row align-items-center">
 
-          <div className="col-lg-6 position-relative ps-3 mb-4">
+          <div className="col-lg-6 position-relative d-flex ps-5 justify-content-start mb-4">
             <div className='imgBanner2'>
               <img src={posterImage} alt=''></img>
             </div>
           </div>
 
-          <div className="col-lg-6 ps-4 mb-4">
+          <div className="col-lg-6 mb-4">
             <p
               className="about text-uppercase small text-start text-success fw-semibold mb-2">
               About Us <i className="bi bi-cursor-fill ms-1"></i>
