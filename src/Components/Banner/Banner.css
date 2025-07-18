@@ -1,55 +1,67 @@
 .Banner {
-  background-image: url('https://png.pngtree.com/background/20230528/original/pngtree-an-airplane-flying-through-clouds-at-sunset-picture-image_2782700.jpg');
+  background-image: url('../../assets/bgBanner.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   width: 100%;
-  min-height: 575px;
+  min-height: 666px;
   margin-top: 65px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .mainHeading {
   color: white;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-weight: 600;
 }
 
 .mainHeading .subHeading {
-  color: brown;
+  color: #198754;
 }
 
-.overview {
+.Banner .overview {
   color: white;
-  font-size: 1rem;
+  font-size: 19px;
 }
 
 .firstButton button {
   outline: none;
   border: none;
   padding: 13px 25px;
-  background-color: #542e2e;
+  background-color: #198754;
   color: white;
-  border-radius: 24px;
-  font-size: 14px;
+  border-radius: 27px;
+  font-size: 16px;
   font-weight: 500;
   transition: transform 0.3s ease;
 }
 
 .firstButton button:hover {
   cursor: pointer;
-  color: #542e2e;
+  color: #198754;
   background-color: white;
   transform: scale(1.03);
 }
 
-@media (max-width : 620px) {
+@media (max-width : 650px) {
   .mainHeading{
     font-size: 30px;
   } 
-  .overview{
+  .Banner .overview{
+    font-size: 13px;
+  } 
+  .firstButton button {
+    font-size: 13px;
+    padding: 10px 20px;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 999px) {
+  .mainHeading{
+    font-size: 40px;
+  } 
+  .Banner .overview{
     font-size: 13px;
   } 
   .firstButton button {

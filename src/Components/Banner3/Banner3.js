@@ -9,25 +9,25 @@ function Banner3() {
             <div className='bannerSub container'>
             
             <div className='subTitle text-start pt-5'>
-                <span>OUR SERVICES 🛠️</span>
+                <span>OUR SERVICES <i className='bi bi-cursor-fill'></i></span>
             </div>
             <div className='subsubTitle row align-items-center justify-content-between '>
                 <div className='title text-start col-md-8 col-lg-10'>
                     <span>Adventure Unleashed <br/>Discover Your Next</span>
                 </div>
                 <div className='arrow col-md-4 col-lg-2 justify-content-lg-end justify-content-md-end'>
-                        <button className='btn'><span>←</span></button>
-                        <button className='btn'><span>→</span></button>
+                        <button className='btn'><i className="fas fa-arrow-left"></i></button>
+                        <button className='btn'><i className="fas fa-arrow-right"></i></button>
                 </div>
             </div>
             
             <div className='cards row justify-content-center'>
                 <div className='col-12 col-sm-6 col-lg-4 mb-4'>
-                <div className='card pb-5'>
-                    <div className='img'>
-                        <img src="https://img.freepik.com/premium-vector/earth-globe-illustration-brown-background_53876-480673.jpg?w=360" alt="logo" />
+                <div className='card pb-4'>
+                    <div className='icon-circle mt-4 mx-auto'>
+                    <i className='fa-solid fa-earth text-white fs-3'></i>
                     </div>
-                    <div className='cardTitle'>
+                    <div className='cardTitle '>
                         <h2>Food And Wine Tours</h2>
                     </div>
                     <div className='overview'>
@@ -37,9 +37,9 @@ function Banner3() {
                 </div>
 
                 <div className='col-12 col-sm-6 col-lg-4 mb-4'> 
-                <div className='card pb-5'>
-                    <div className='img'>
-                        <img src="https://i.pinimg.com/736x/32/21/7a/32217a8528c31a0b5798b9eec0140ac4.jpg" alt="logo" />
+                <div className='card pb-4'>
+                   <div className='icon-circle mt-4 mx-auto'>
+                    <i className='fa-solid fa-plane text-white fs-3'></i>
                     </div>
                     <div className='cardTitle'>
                         <h2>Travel Opportunities</h2>
@@ -51,9 +51,9 @@ function Banner3() {
                 </div>
 
                 <div className='col-12 col-sm-6 col-lg-4 mb-4'> 
-                <div className='card pb-5'>
-                    <div className='img'>
-                        <img src="https://i.pinimg.com/736x/13/8d/34/138d34f2c734c1758a2a232928419ad5.jpg" alt="logo" />
+                <div className='card pb-4'>
+                    <div className='icon-circle mt-4 mx-auto'>
+                    <i className='fa-solid fa-suitcase text-white fs-3'></i>
                     </div>
                     <div className='cardTitle'>
                         <h2>Solo Travel Planning</h2>

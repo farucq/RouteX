@@ -10,9 +10,7 @@ function Footer() {
         
         <div className='routeX col-12 col-md-6 col-lg-3 ps-lg-2 '>
             <div className='routexMain justify-content-center  justify-content-md-start'>
-            <div className='logo'>
-                <img src='https://thumbs.dreamstime.com/b/airplane-logo-illustration-white-background-339249645.jpg' alt=''/>
-            </div>   
+            <i className="fa fa-plane me-2 d-flex align-items-center text-success fs-4 ms-2"></i>
             <div className='title'>    
                 <h3>RouteX</h3>
             </div>
@@ -22,10 +20,10 @@ function Footer() {
                 
             </div>
             <div className='icons justify-content-center  justify-content-md-start'>
-                <i className='bi bi-facebook'></i>
-                <i className='bi bi-instagram'></i>
-                <i className='bi bi-pinterest'></i>
-                <i className='bi bi-linkedin'></i>
+                <i className='socialIcon bi bi-facebook'></i>
+                <i className='socialIcon bi bi-instagram'></i>
+                <i className='socialIcon bi bi-pinterest'></i>
+                <i className='socialIcon bi bi-linkedin'></i>
             </div>
 
         </div>
@@ -34,10 +32,10 @@ function Footer() {
                 <span>Service Menu</span>
             </div>
             <div className='subTitle d-inline-block text-start' >
-                <p>✔️ Mistakes To Avoid<br/>
-                ✔️ Your Startup<br/>
-                ✔️ Knew About Fonts<br/>
-                ✔️ Knew About Fonts</p>
+                <p><i className='fa fa-check text-success me-1'></i> Mistakes To Avoid<br/>
+                <i className='fa fa-check text-success me-1'></i> Your Startup<br/>
+                <i className='fa fa-check text-success me-1'></i> Knew About Fonts<br/>
+                <i className='fa fa-check text-success me-1'></i> Knew About Fonts</p>
 
             </div>
         </div>
@@ -46,10 +44,10 @@ function Footer() {
                 <span>Useful Link</span>
             </div>
             <div className='subTitle d-inline-block text-start'>
-                <p>✔️ Latest News<br/>
-                ✔️ Careers<br/>
-                ✔️ General Inquiries<br/>
-                ✔️ Case Studies</p>
+                <p><i className="fas fa-chevron-right text-success me-1"></i> Latest News<br/>
+                <i className="fas fa-chevron-right text-success me-1"></i> Careers<br/>
+                <i className="fas fa-chevron-right text-success me-1"></i> General Inquiries<br/>
+                <i className="fas fa-chevron-right text-success me-1"></i> Case Studies</p>
 
             </div>
             
@@ -73,12 +71,12 @@ function Footer() {
         </div>
         <div className='Line'>
         </div>
-        <div className='footerBottom container mt-3 mb-4'>
+        <div className='footerBottom container text-white mt-3 pb-4'>
             <div className='row d-flex'>
             <div className='left col-12 col-md-6 text-center text-md-start'>
             <span>©RRDevs2025 | All Rights Reserved</span>
             </div>
-            <div className='right d-flex justify-content-center justify-content-md-end col-12 col-md-6 text-center text-md-end gap-2'>
+            <div className='right d-flex justify-content-center justify-content-md-end col-12 col-md-6 text-center text-md-end'>
             <span>Terms & Conditions</span>
             <span>Privacy Policy</span>
             <span>Contact Us</span>

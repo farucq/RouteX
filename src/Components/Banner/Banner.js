@@ -12,11 +12,11 @@ function Banner() {
         <p><span className='subHeading'>Migrate</span> with Us</p>
       </div>
       <div className='overview'>
-        <span>Lorem Ipsum has been the industry's standard printer e</span>
+        <span>Lorem Ipsum has been the industry's standard printer</span>
             <p> took a galley of type and scrambled</p> 
       </div>
       <div className='firstButton mt-2'>
-      <button>Learn More →</button>
+      <button>Learn More<i className="fa fa-arrow-right ms-2"></i></button>
       </div>
       </div>
       </div>

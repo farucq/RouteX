@@ -12,7 +12,9 @@
   position: relative;
   max-width: 400px;
 }
-
+.about{
+  letter-spacing: 1px;
+}
 
 
 /* Top left large image */
@@ -58,7 +60,7 @@
   position:absolute;
   left: -10px;
   bottom: 10px;
-  background-color: #790404;
+  background-color: #198754;
   padding: 20px 5px;
   border-radius: 20px;
   color: white;
@@ -78,15 +80,23 @@
 }
 
 .aboutbtn {
-  background-color: #790404;
+  outline: none;
+  border: none;
+  background-color: #198754;
+  padding: 13px 25px;
   color: #fff;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition: transform 0.3s ease;
+
+  border-radius: 27px;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .aboutbtn:hover {
-  background-color: #000000; /* Change this to your desired hover color */
-  color: #ffffff; /* Optional: text color on hover */
+  background-color: #186742; 
+  color: #ffffff; 
+  transform: scale(1.03);
 }
 .green-icon {
-  color: grey;
+  color: #198754;
 }
