@@ -2,10 +2,14 @@
 .about-us-section {
   background-color: #fff;
 }
-
+.imgBanner2{
+  display: flex;
+  justify-content: center;
+}
 .imgBanner2 img{
   width: 440px;
   margin-top: 15px;
+  
 
 }
 
@@ -20,7 +24,6 @@
   padding: 13px 25px;
   color: #fff;
   transition: transform 0.3s ease;
-
   border-radius: 27px;
   font-size: 16px;
   font-weight: 500;
@@ -33,4 +36,10 @@
 }
 .green-icon {
   color: #198754;
+}
+@media (max-width:500px){
+  .imgBanner2 img{
+  width: 350px;
+  padding-left: 20px;
+}
 }
