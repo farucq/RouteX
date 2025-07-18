@@ -3,80 +3,14 @@
   background-color: #fff;
 }
 
+.imgBanner2 img{
+  width: 440px;
+  margin-top: 15px;
 
-.about-image-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto auto;
-  gap: 25px;
-  position: relative;
-  max-width: 400px;
 }
+
 .about{
   letter-spacing: 1px;
-}
-
-
-/* Top left large image */
-.grid-top-left {
-  grid-row: 1 / span 2;
-  grid-column: 1 / 2;
-}
-
-.grid-top-left img {
-  height: 230px;
-  width: 200px;
-  position: relative;
-  bottom: -40px;
-  left: -30px;
-  object-fit: cover;
-  border-radius: 15px;
-}
-
-/* Top right small image */
-.grid-top-right img {
-  height: 160px;
-  width: 180px;
-  position: relative;
-  left: -40px;
-  bottom: -40px;
-  margin-bottom: 20%;
-  border-radius: 15px;
-}
-
-
-/* Bottom right square image */
-.grid-bottom-right img {
-  height: 210px;
-  width: 210px;
-  left: -90px;
-  bottom: 10px;
-  position: relative;
-  border-radius: 15px;
-}
-
-/* Green box with experience text */
-.experience-box {
-  position:absolute;
-  left: -10px;
-  bottom: 10px;
-  background-color: #198754;
-  padding: 20px 5px;
-  border-radius: 20px;
-  color: white;
-  text-align: center;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-  width: 120px;
-  height: 150;
-  font-size: 20px;
-  line-height: 1.2;
-  
-}
-
-.experience-box h3 {
-  font-size: 40px;
-  font-weight: bold;
-  margin: 0;
 }
 
 .aboutbtn {
