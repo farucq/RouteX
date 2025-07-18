@@ -10,8 +10,8 @@ function Footer() {
         
         <div className='routeX col-12 col-md-6 col-lg-3 ps-lg-2 '>
             <div className='routexMain justify-content-center  justify-content-md-start'>
-            <i className="fa fa-plane me-2 d-flex align-items-center text-success fs-4 ms-2"></i>
-            <div className='title'>    
+            <i className="fa fa-plane me-2 d-flex align-items-center text-success fs-4"></i>
+            <div className='title text-center'>    
                 <h3>RouteX</h3>
             </div>
             </div>

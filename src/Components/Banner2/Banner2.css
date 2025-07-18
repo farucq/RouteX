@@ -2,6 +2,9 @@
 .about-us-section {
   background-color: #fff;
 }
+.sectionBanner2{
+  padding: 0rem 1.5rem;
+}
 .imgBanner2{
   display: flex;
   justify-content: center;

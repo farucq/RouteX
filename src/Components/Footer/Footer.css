@@ -1,11 +1,13 @@
 .footerMain{
     background-color: #052e16;
+    
 }
 .footer{
     display: flex;
     margin-bottom: 60px;
     justify-content: center;
     color: white;
+    padding: 0rem 1.5rem;
 }
 .routeX{  
     margin-top: 83px;   

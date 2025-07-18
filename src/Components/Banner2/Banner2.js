@@ -14,7 +14,7 @@ function Banner2() {
             </div>
           </div>
 
-          <div className="col-lg-6 mb-4 ">
+          <div className="sectionBanner2 col-lg-6 mb-4 ">
             <p
               className="about text-uppercase small text-center text-lg-start text-success fw-semibold mb-2">
               About Us <i className="bi bi-cursor-fill ms-1"></i>
