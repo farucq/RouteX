@@ -9,8 +9,6 @@
 .imgBanner2 img{
   width: 440px;
   margin-top: 15px;
-  
-
 }
 
 .about{
@@ -42,4 +40,7 @@
   width: 350px;
   padding-left: 20px;
 }
+.overviewBanner2{
+    font-size: 13px;
+  }
 }

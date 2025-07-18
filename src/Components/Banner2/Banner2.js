@@ -22,7 +22,7 @@ function Banner2() {
             <h1 className="fw-bold mb-4 mt-2 text-center text-lg-start">
               Unknown Wanderlust<br />Your Journey into
             </h1>
-            <p className="text-muted mb-4 text-center text-lg-start">
+            <p className="overviewBanner2 text-muted mb-4 text-center text-lg-start">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sit amet rcus nunc. Duis egestas ac ante sed tincidunt.
             </p>
             <div className="row">
@@ -31,7 +31,7 @@ function Banner2() {
                 <div>
                   <strong><i className="bi bi-check-square-fill green-icon me-2"></i>Safety Guides</strong><br />
                   <div className='ps-lg-4'>
-                  <small className="text-muted">Consectetur adipiscing elit text-start text-start  adipiscing elit</small>
+                  <small className="overviewBanner2 text-muted">Consectetur adipiscing elit text-start text-start  adipiscing elit</small>
                   </div>
                 </div>
               </div>
@@ -39,7 +39,7 @@ function Banner2() {
                 <div>
                   <strong><i className="bi bi-check-square-fill green-icon me-2"></i>Passport Assistance</strong><br />
                   <div className='ps-lg-4'>
-                  <small className="text-muted">Consectetur adipiscing elit text-start text-start  adipiscing elit</small>
+                  <small className="overviewBanner2 text-muted">Consectetur adipiscing elit text-start text-start  adipiscing elit</small>
                   </div>
                 </div>
               </div>
