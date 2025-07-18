@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/RouteX/static/css/main.d8b36720.css",
-    "main.js": "/RouteX/static/js/main.fa8e4c2a.js",
+    "main.css": "/RouteX/static/css/main.8385ce37.css",
+    "main.js": "/RouteX/static/js/main.62185f25.js",
     "static/js/453.485a2287.chunk.js": "/RouteX/static/js/453.485a2287.chunk.js",
     "static/media/bgBanner.jpg": "/RouteX/static/media/bgBanner.2f348fe7b1472caae4ad.jpg",
     "static/media/poster.png": "/RouteX/static/media/poster.03a35a3e132fe1ca8f77.png",
     "static/media/bgBanner3.jpg": "/RouteX/static/media/bgBanner3.f92208a50db24bee1ed1.jpg",
     "static/media/logo.svg": "/RouteX/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/RouteX/index.html",
-    "main.d8b36720.css.map": "/RouteX/static/css/main.d8b36720.css.map",
-    "main.fa8e4c2a.js.map": "/RouteX/static/js/main.fa8e4c2a.js.map",
+    "main.8385ce37.css.map": "/RouteX/static/css/main.8385ce37.css.map",
+    "main.62185f25.js.map": "/RouteX/static/js/main.62185f25.js.map",
     "453.485a2287.chunk.js.map": "/RouteX/static/js/453.485a2287.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8b36720.css",
-    "static/js/main.fa8e4c2a.js"
+    "static/css/main.8385ce37.css",
+    "static/js/main.62185f25.js"
   ]
 }
